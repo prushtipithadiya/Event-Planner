@@ -1,0 +1,100 @@
+/* ContactUs.css */
+
+.contact-us-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  padding-right: 50px;
+}
+
+.contact-info {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-info h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--primary-color); /* Change to your primary color */
+}
+
+.contact-info p {
+  font-size: 18px;
+  color: #555;
+}
+
+.contact-us-wrapper {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f8f8; /* Change to your desired background color */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: rgb(61, 61, 61);
+}
+
+.contact-us-form input,
+.contact-us-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.contact-us-form button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.contact-us-form button:hover {
+  background-color:black;
+}
+
+.team-details  {
+
+  padding: 10px; 
+  white-space: nowrap; 
+  margin: 10px;
+} 
+
+pre {
+  margin : px;
+  font-size: 20px;
+  border: 1px solid rgb(226, 208, 208);
+  padding: 10px;
+  color: rgb(105, 101, 101);
+  border-radius: 5px;
+}
+
+h1 {
+  margin-bottom: 17px;
+}
+
+
+
+/* ContactUs.css */
+
+.footer {
+  background: linear-gradient(to top, #ffffff, #b69bbd);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

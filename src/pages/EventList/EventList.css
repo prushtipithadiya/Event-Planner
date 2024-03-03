@@ -1,0 +1,30 @@
+/* EventList.css */
+
+.event-list-wrapper {
+  width: 100%;
+  height: auto;
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-list {
+  margin-left: 250px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; /* Allow events to wrap to the next line */
+  align-items: center;
+  gap: 16px; /* Adjusted gap */
+  margin-top: 200px; /* Adjusted top margin */
+  margin-bottom: 60px;
+}
+
+/* Styles for left and right sections */
+.event-card {
+  width: calc(50% - 8px); /* Calculate width for two columns with 8px gap */
+  box-sizing: border-box;
+}
+
+/* Add any additional styles for section headings or individual events as needed */

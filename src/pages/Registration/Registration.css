@@ -1,0 +1,97 @@
+/* EventRegistration.css */
+
+/* Registration.css */
+
+.registration-container {
+    box-sizing: content-box;
+    max-width: 500px;
+    margin: auto;
+    padding-top:20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    
+    color: #151515;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add other styles as needed */
+  
+.registration-container {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 150px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .registration-form label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-form input {
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .registration-form button {
+    background-color: #a40fc9;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .registration-form button:hover {
+    background-color: #a40fc9;
+  }
+  
